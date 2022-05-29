@@ -1,0 +1,49 @@
+@media only screen and (max-width: 400px) {
+    .headerNavbar .avatar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .headerNavbar__text{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .headerNavbar__text{
+        display: block;
+    }
+}
+
+.headerNavbar{
+    /* display:none; */
+    border-top:3px solid rgb(252, 249, 249);
+    border-bottom:3px solid rgb(252, 249, 249);
+
+    
+}
+
+.headerNavbar__text{
+    float: left;
+    
+}
+.headerNavbar__text__item:first-child{
+    font-weight: bold;
+    color: rgb(251, 251, 255);
+    margin-right: 5px;
+}
+.headerNavbar__text__item:nth-child(2){
+    font-weight: bold;
+    color: rgb(241, 18, 18);
+    margin-right: 5px;
+}
+.headerNavbar__menu{
+    float: right;
+}
+
+.headerNavbar .avatar{
+    top: 10px;
+    float: left;
+    margin-right: 10px;
+}
